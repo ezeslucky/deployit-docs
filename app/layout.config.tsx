@@ -27,20 +27,20 @@ export const Logo = () => {
 };
 
 export const baseOptions: BaseLayoutProps = {
-	githubUrl: "https://github.com/dokploy/dokploy",
+	githubUrl: "https://github.com/deployit/deployit",
 	nav: {
 		url: "/get-started/introduction",
 		title: (
 			<>
 				<Logo />
-				<span className="text-foreground">Dokploy</span>
+				<span className="text-foreground">deployit</span>
 			</>
 		),
 	},
 	links: [
 		{
 			text: "Website",
-			url: "https://dokploy.com",
+			url: "https://deployit.com",
 			active: "nested-url",
 			icon: <GlobeIcon />,
 		},
@@ -64,7 +64,7 @@ export const baseOptions: BaseLayoutProps = {
 		},
 		{
 			text: "Support",
-			url: "https://opencollective.com/dokploy",
+			url: "https://opencollective.com/deployit",
 			active: "nested-url",
 			icon: (
 				<>

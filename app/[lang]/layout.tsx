@@ -30,7 +30,7 @@ const modes: Mode[] = [
 	{
 		param: "core/get-started/introduction",
 		name: "Core",
-		package: "Dokploy",
+		package: "deployit",
 		description: "The core",
 		icon: LibraryIcon,
 	},
@@ -88,7 +88,7 @@ export default function Layout({
 							i18n
 							tree={pageTree[params.lang]}
 							nav={{
-								title: params.lang === "cn" ? "目錄" : "Dokploy",
+								title: params.lang === "cn" ? "目錄" : "deployit",
 								url: `/${params.lang}`,
 								transparentMode: "none",
 							}}
